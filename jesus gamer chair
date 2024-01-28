@@ -51,7 +51,7 @@
             for (var i = 0; i < top.children.length; i++) {
                 top.children[i].remove()
             }
-            el.style = "background-color: 74,41,132; color: black; width: auto;align-items: center;margin-top: 10px;margin-bottom: 10px;padding: 5px;border: 2px solid black; font-size: 20px; font-style: bold; font-family: monospace;";
+            el.style = "background-color: black; width: auto; align-items: center; margin-top: 10px; margin-bottom: 10px; padding: 5px; border: 2px 74,41,132; font-size: 20px; font-weight: bold; font-family: monospace; background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red); -webkit-background-clip: text; color: transparent; text-fill-color: transparent;";
             el.innerHTML = "💰 JESUS GAMER CHAIR ACTIVE 💰";
             top.appendChild(el);
 
