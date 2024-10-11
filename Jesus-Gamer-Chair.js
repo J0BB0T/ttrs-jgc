@@ -106,10 +106,10 @@
             var gameOver = document.getElementsByClassName("stamp center mat-white-color")[0];
             if (gameOver != undefined) {
                 gameOver.innerHTML = "'WOW. YOU MIGHT BE SMARTER THAN ME!' - Baldi"
-            }
-            if (window.location.href == "https://play.ttrockstars.com/gamel/play/garage") {
-                if (Reload == true) {
-                    window.location.reload(true)
+                if (window.location.href == "https://play.ttrockstars.com/gamel/play/garage") {
+                    if (Reload == true) {
+                        window.location.reload(true)
+                    }
                 }
             }
         }
