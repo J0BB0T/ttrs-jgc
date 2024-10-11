@@ -94,7 +94,7 @@
                 } else {
                     clearInterval(id);
                 }
-            }, 225);
+            }, 254);
         } else {
             running = false;
             play = document.getElementsByClassName("mat-focus-indicator margin-5 play-button stamp mat-raised-button mat-button-base mat-accent ng-star-inserted")[0];
@@ -103,7 +103,7 @@
             }
             var gameOver = document.getElementsByClassName("stamp center mat-white-color")[0];
             if (gameOver != undefined) {
-                gameOver.innerHTML = "game won 😉"
+                gameOver.innerHTML = "'WOW. YOU MIGHT BE SMARTER THAN ME!' - Baldi"
             }
         }
 
