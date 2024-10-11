@@ -25,7 +25,7 @@
     for (var i = 0; i < 10; i++) {
         keyMap.set(numbers[i], 48+i)
     }*/
-    
+
     var Reload = true // make true for automated, false for not automated
 
     var running = false;
@@ -107,7 +107,7 @@
             if (gameOver != undefined) {
                 gameOver.innerHTML = "'WOW. YOU MIGHT BE SMARTER THAN ME!' - Baldi"
             }
-            if (window.location.hrf == "https://play.ttrockstars.com/gamel/play/garage") {
+            if (window.location.href == "https://play.ttrockstars.com/gamel/play/garage") {
                 if (Reload == true) {
                     window.location.reload(true)
                 }
